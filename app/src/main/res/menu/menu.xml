@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group
+            android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnxemds"
+            android:title="Xem danh sach" >
+            <menu>
+                <item
+                    android:id="@+id/mnxemdssv"
+                    android:title="Sinh vien" />
+                <item
+                    android:id="@+id/mnxemdslh"
+                    android:title="Lop hoc" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/mnsuads"
+            android:title="Sua danh sach" >
+        </item>
+        <item
+            android:id="@+id/mnxoads"
+            android:title="Xoa danh sach">
+        </item>
+        <item
+            android:id="@+id/mninds"
+            android:title="in danh sach" >
+        </item>
+        </group>
+</menu>
